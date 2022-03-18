@@ -5,13 +5,14 @@
 
 header {
     background-color: #1F2937;
-    height: auto;
     color: white;
     display: flex;
     justify-content: space-between;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
    
 }
 
@@ -21,6 +22,7 @@ body {
     margin-left: 100px;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 
@@ -28,13 +30,13 @@ ul {
     list-style-type: none;
     display: flex;
     justify-self: flex-end;
-    font-size: 18px;
+    font-size: 10px;
 }
 
 li {
-    margin: 16px;
+    margin: 10px;
     margin-top: 0;
-    font-size: 18px;
+    font-size: 10px;
     color: #E5E7EB;
 
 }
@@ -89,11 +91,13 @@ li {
     background-color: #3882F6;
     color: white;
     padding: 30px;
-    margin: 40px;
+    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 footer {
@@ -122,18 +126,18 @@ button {
     background-color: #3882F6;
     color: white;
     border-radius: 12px;
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'roboto';
     display: inline-block;
     text-decoration: none;
     padding: 12px 28px;
+    max-height: 40px;
 }
 
 .about {
-    display: flex;
-    justify-content: center;
     align-items: flex-start;
     margin-left: 100px;
+    margin-bottom: 70px;
     flex-direction: column;
     width: 300px;
     
@@ -146,11 +150,29 @@ h1 {
 }
 
 .xx {
-    border: solid red;
-    display: flex;
+    margin-right: 250px;
+    align-self: center;
+    justify-center: center;
 }
 
 .blueimg {
     border: solid blue;
     border-radius: 25px;
+}
+
+.quote {
+    width: 700px;
+    font-size: 25px;
+    align-self: center;
+}
+
+.odin {
+    align-self: center;
+    font-weight: bold;
+}
+
+.signup {
+    justify-self: center;
+    align-self: center;
+    border: solid #f9faf8;
 }
