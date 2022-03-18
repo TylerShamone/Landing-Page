@@ -74,6 +74,9 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-weight: bold;
+    border: solid blue;
+    border-radius: 40px;
     }
 
 .sri {
